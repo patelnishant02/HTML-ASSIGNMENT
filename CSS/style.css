@@ -1,7 +1,14 @@
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
+@media only screen and (max-width: 1200px) {
+    
+  }
+  @media only screen and (max-width: 800px) {
+    
+  }
+  @media only screen and (max-width: 600px) {
+    
+  }
+  @media only screen and (max-width: 400px) {
+    
   }
 .container{
     background-color:#FAFAFA;
@@ -9,13 +16,15 @@
     width: 1560px;
 }
 .logo{
-    position: fixed;
+    padding-top: 72px;
+    padding-left: 166px;
     top: 0px;
     left: 0px;
 }
 
 .login{
-    position: fixed;
+    padding-top: 106px;
+    padding-left: 906px;
     top: 0px;
     right:656px;
 }
@@ -144,7 +153,7 @@ opacity: 1;
 }
 
 .d1{
-    position:fixed;
+    
     top: 0px;
     left: 0px;
     width: 1560px;
@@ -154,7 +163,7 @@ opacity: 1;
     ;
 }
 .hea{top: 0px;
-    position:fixed;
+    
 left: 0px;
 width: 1560px;
 height: 80px;
@@ -163,7 +172,8 @@ opacity: 1;
 }
 .menubar{
     top: 34px;
-    position:fixed;
+    margin-top: 34px;
+    margin-left: 29px;
 left: 29px;
 width: 18px;
 height: 12px;
@@ -171,12 +181,12 @@ background:  0% 0% no-repeat padding-box;
 opacity: 1;
 }
 .logo{
+    margin-top: 25px;
+    margin-left: 72px;
     top: 25px;
     left: 72px;
-    position:fixed;
     width: 142px;
     height: 30px;
-    
     opacity: 1;
 }
 .searchicon{top: 32px;
@@ -203,7 +213,6 @@ opacity: 1;}
 left: 1294px;
 width: 22px;
 height: 21px;
-/* UI Properties */
 background:  0% 0% no-repeat padding-box;
 opacity: 1;
 }
@@ -214,7 +223,6 @@ opacity: 1;
 left: 1368px;
 width: 44px;
 height: 44px;
-/* UI Properties */
 background: transparent url('img/Ellipse 19.png') 0% 0% no-repeat padding-box;
 opacity: 1;}
 
