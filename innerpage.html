@@ -2,66 +2,191 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inner Page</title>
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/style1.css" type="text/css">
-    
+    <title>InnerPage</title>
+    <link rel="stylesheet" href="./css/innerpage.css">
 </head>
 <body>
-    <div class="d1">
-        <div class="hea">
-        <img src="IMAGES/menu-bar.svg" alt="menu-bar" class="menubar">
-        <img src="IMAGES/header-logo.svg" class="logo">
-        <img src="IMAGES/search-icon.svg" class="searchicon">
-        <div class="search">Search</div>
-        <img src="IMAGES/notification-icon.svg" class="notification">
-        <img src="IMAGES/profile.png" class="profile">
-        <div class="name">John Doe</div>
-        <img src="IMAGES/downward-arrow.svg" class="downward">
-    </div>
-    <div class="sideline">
-        <img src="IMAGES/dashboard-active.svg" class="dash">
-        <div class="dashboard">Dashboard</div>
-        
-        <img src="IMAGES/graph-default.svg" class="anal">
-        <div class="analysis">Analysis</div>
-        
-        <img src="IMAGES/inbox-default.svg" class="inbo">
-        <div class="inbox">Inbox</div>
-        
-        <img src="IMAGES/clock-default.svg" class="hist">
-        <div class="history">History</div>
-        
-        <img src="IMAGES/user-default.svg" class="user">
-        <div class="users">Users</div>
-        
-        <img src="IMAGES/maintenance-default.svg" class="main">
-        <div class="maintainance">Maintainance</div>
-        
-        <img src="IMAGES/setting-default.svg" class="sett">
-        <div class="setting">Setting</div>
+    <div class="container">
+        <div class="hedder">
+            <img src="./images/menu-bar.svg" class="menu">
+            <img src="./images/logo.svg" class="logo">
+            <!-- <input type="search" placeholder="Search" class="search_icon"> -->
+            <img src="./images/search-icon.svg" class="search_icon">
+            <span class="search_text">search</span>
+            <img src="./images/notification-icon.svg" class="notification">
+            <img src="./images/profile.png" class="profile_pic">
+            <span class="name_text">John Doe</span>
+            <img src="./images/select-downward.svg" class="option">
         </div>
-        <div class="analysis1">Analysis</div>
-        
         <div class="main">
-            <div class="onecolumn">One Column</div>
-            
-                <input type="text" placeholder="Name" class="name">
-                <input type="text" placeholder="Drop Down" class="dropdown">
-                <input type="text" placeholder="Multiple Line" class="multipleline">
-        <div class="twocolumn">Two Column</div>
-        <input type="text" placeholder="Name" class="name2">
-        <input type="text" placeholder="JohnDoe" class="uname">
-        <input type="password" placeholder="Password" class="pwd">
-        <input type="text" placeholder="Drop Down" class="dropdown1">
-        <div class="threecolumn">Three Column</div>
-        
-        <input type="text" placeholder="Focus" class="focus2">
-        <div class="fourcolumn">Four Column</div>
+        <div class="left_bar">
+            <div class="box1">
+                <img src="./images/dashboard-active.svg" class="dash_img">
+                <span class="dashbord_r">Dashboard</span>
+            </div>
+
+            <div class="box">
+            <img src="./images/graph-default.svg" class="analysis_img">
+            <span class="analysis">Analysis</span>
+            </div>
+
+            <div class="box">
+            <img src="./images/inbox-default.svg" class="inbox_img">
+            <span class="inbox">Inbox</span>
+            </div>
+
+
+            <div class="box">
+            <img src="./images/clock-default.svg" class="history_img">
+            <span class="history">History</span>
+            </div>
+
+
+            <div class="box">
+            <img src="./images/user-default.svg" class="user_img">
+            <span class="user">User</span>
+            </div>
+
+
+            <div class="box">
+            <img src="./images/maintenance-default.svg" class="m_img">
+            <span class="maintenance">Maintenance</span>
+            </div>
+
+            <div class="box">
+            <img src="./images/setting-default.svg" class="setting_img">
+            <span class="setting">Setting</span>
+            </div>
         </div>
-        
+
+
+        <div class="right_bar">
+            <span class="Analysis">Analysis</span>
+            <div class="right_inner">
+                <h1 class="ht1">One Column</h1>
+                <input type="text" class="name1" placeholder="Name">
+                <select class="dropdown">
+                    <option value="Dropdown">Dropdown</option>
+                </select>
+                <input type="text" class="multiline" placeholder="Multiple Line">
+                
+                <h1 class="ht2">Two Column</h1>
+                <div class="colum_21">
+                    <input type="text" class="name2" placeholder="Name">
+                    <input type="text" class="uname1" placeholder="johndoe">    
+                </div>
+                <div class="colum_22">
+                    <input type="password" class="password1" placeholder="Password">
+                    <select class="dropdown2">
+                        <option value="Dropdown">Dropdown</option>
+                    </select>
+                </div>
+                
+                <h1 class="ht3">Three Column</h1>
+                <div class="colum_31">
+                    <input type="text" class="name3">
+                    <input type="password" class="password3" placeholder="•••••••••">
+                    <input type="text" class="uname2" placeholder="johndoe">
+                </div>
+
+                <p class="ht4">Four Column</p>
+                <div class="colum_41">
+                    <input type="text" class="text4">
+                    <input type="text" class="name4" placeholder="Name">
+                    <input type="text" class="uname4" placeholder="johndoe">
+                    <select name="select" class="select1">
+                        <option value="select">select</option>
+                    </select>
+                </div>
+
+                <span class="text5">Enter Valid data</span>
+                <span class="text6">Enter your full Name as per ID</span>
+               
+                <div class="text7">Other Design Elements</div>
+                <div class="text8">File Upload</div>
+                <div class="colum_51">
+                    <button class="uplod"><img src="./images/cloud-upload-icon.svg" alt="" class="u_"><span class="u_t">Upload</span></button>
+                    <span class="text9">No Item Selected</span>
+                </div>
+    
+                <div>
+                    <div class="text10">Radio Button</div>
+                    <div class="rd">
+                        <form action="#">
+                            <input type="radio" id="red" name="opt" value="Option 1" class="option1">
+                            <span class="o1">Option1</span>
+                            <img src="./images/radio-checked-icon.svg" class="option2">
+                            <span class="o2">Option 2</span><br>
+                        </form>
+                    </div>
+                </div> 
+                
+                <div>
+                    <div class="check">Checkbox</div>
+                    <div class="ch_d">
+                        <img src="./images/check-icon.svg" class="c1">
+                        <span class="co1">Option1</span>
+                        <img src="./images/checked-icon.svg" class="c2">
+                        <span class="co2">Option2</span>    
+                    </div>
+                </div>
+    
+                <div class="snack">Snackbar</div>
+                <div class="ch_d">
+                    <div class="error_snack">
+                        <img src="./images/error-icon.svg" alt="error" class="e_icon">
+                        <span class="e_text">This is an error message</span>
+                    </div>
+                
+                    <div class="info_snack">
+                        <img src="./images/info-icon.svg" alt="error" class="e_icon">
+                        <span class="i_text">This is an Information message!</span>
+                    </div>
+    
+                </div>
+                
+                <div class="ch_d">
+                    <div class="warning_snack">
+                        <img src="./images/warning-icon.svg" alt="error" class="w_icon">
+                        <span class="w_text">This is a warning message!</span>
+                    </div>
+            
+                    <div class="success_snack">
+                        <img src="./images/success-icon.svg" alt="error" class="s_icon">
+                        <span class="s_text">This is success message</span>
+                    </div>
+
+                </div>
+    
+                <div class="call_text">Call to action</div>
+                <div class="ch_d">
+                    <button class="primary">Primary</button>
+                    <button class="secondary">Secondary</button>    
+                </div>
+    
+                <div class="tab_text">Tabs</div>
+                <div class="ch_d">
+                    <span class="tab1_text">Tab 1</span>
+                    <span class="tab2_text">Tab 2</span>
+                    <span class="tab3_text">Tab 3</span>
+                </div>
+                <!-- <h1 class="horizontal_line"><br></h1> -->
+                <div class="horizontal_line">
+                    <hr>
+                </div>
+                <span>
+                    <hr class="hr">
+                </span>  
+
+    
+                <div class="paragraph">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                </div>
+            </div>  
+    
+        </div>
+
     </div>
 </body>
 </html>
